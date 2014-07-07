@@ -20,7 +20,10 @@ describe('allergies') do
   it('returns an allergy to chocolate for a score of 32') do
     expect(allergies(32)).to eq('chocolate')
   end
-  it('returns an allegy to pollen for a score of 64') do
+  it('returns an allergy to pollen for a score of 64') do
     expect(allergies(64)).to eq('pollen')
+  end
+  it('returns an allergy to cats for a score of 128') do
+    expect(allergies(128)).to eq('cats')
   end
 end
