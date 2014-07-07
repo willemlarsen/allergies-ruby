@@ -11,6 +11,8 @@ def allergies(score)
     "tomatoes"
   elsif score == 32
     "chocolate"
+  elsif score == 64
+    "pollen"
   else
     "no allergies"
   end
