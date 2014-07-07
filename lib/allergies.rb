@@ -3,6 +3,8 @@ def allergies(score)
     "eggs"
   elsif score == 2
     "peanuts"
+  elsif score == 4
+    "shellfish"
   else
     "no allergies"
   end
