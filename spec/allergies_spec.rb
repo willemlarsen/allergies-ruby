@@ -26,4 +26,7 @@ describe('allergies') do
   it('returns an allergy to cats for a score of 128') do
     expect(allergies(128)).to eq('cats')
   end
+  it('returns an allergy to eggs and peanuts for a score of 3') do
+    expect(allergies(192)).to eq(['cats', 'pollen'])
+  end
 end

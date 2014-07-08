@@ -2,7 +2,7 @@
 
 Hi, I'm Willem Larsen. Allergies. It seems like everyone has them. Well this little piece of ruby code tries to make it a little more orderly. Different allergies are equal to a number, summed up into a total for an individual, and the total can then be analyzed for what they are allergic to.
 
-This is inspired by the curriculum at learnhowtoprogram.com.
+This is inspired by the curriculum at learnhowtoprogram.com and was made in pairing with Jay Bazuzi, github.com/jaybazuzi.
 
 The MIT License (MIT)
 
